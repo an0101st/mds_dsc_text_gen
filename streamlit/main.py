@@ -1,7 +1,7 @@
 import streamlit as st
 from transformers import pipeline, set_seed
 
-st.title("Text Generator")
+st.title("Text Generator (with Github Actions)")
 st.write("Type a text and let the model generate further sentences")
 text = st.text_input("Insert a text")
 
