@@ -1,5 +1,0 @@
-streamlit
-python-multipart
-uvicorn
-transformers
-torch
