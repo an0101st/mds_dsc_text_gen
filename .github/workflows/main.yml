@@ -34,7 +34,7 @@ jobs:
         with:
           push: true
           tags: index.docker.io/an0101st/mds_dsc_text_gen:${{ github.sha }}
-          file: ./streamlit/Dockerfile
+          file: ./Dockerfile
           
       - name: Azure WebApp
         uses: Azure/webapps-deploy@v2
